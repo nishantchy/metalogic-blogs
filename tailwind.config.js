@@ -7,7 +7,6 @@ module.exports = {
         themeRed: "#CB3534",
       },
       fontFamily: {
-        rokkit: ["Rokkitt", "sans-serif"],
         worksans: ["Work Sans", "sans-serif"],
       },
     },

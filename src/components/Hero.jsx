@@ -18,7 +18,7 @@ const Hero = () => {
             smooth={true}
             offset={-120}
             duration={500}
-            className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-[50px] text-white bg-themeRed hover:opacity-80 sm:px-10"
+            className="cursor-pointer flex items-center justify-center px-5 py-3 border border-transparent  font-medium rounded-[50px] text-white bg-themeRed hover:opacity-80 sm:px-10"
           >
             Explore Our Posts
           </Link>

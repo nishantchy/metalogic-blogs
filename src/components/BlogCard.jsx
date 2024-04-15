@@ -3,6 +3,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 import { BLOGS } from "../Blogs";
 import { CiCalendarDate } from "react-icons/ci";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const BlogCard = () => {
   const [limit, setLimit] = useState(3);
@@ -48,12 +49,12 @@ const BlogCard = () => {
               <p className="font-semibold text-[#454545] line-clamp-3 mt-2">
                 {blog.detail}
               </p>
-              <a
-                href="/blogsDetail"
+              <Link
+                to={`/blogsdetail/${blog.id}`}
                 className="text-themeRed py-2 hover:opacity-80 mt-3 block"
               >
                 Learn More <FaArrowRightLong className="inline mx-2" />
-              </a>
+              </Link>
             </div>
           </div>
         ))}
