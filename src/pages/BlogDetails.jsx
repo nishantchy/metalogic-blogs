@@ -13,8 +13,8 @@ const BlogDetails = () => {
     setBlogs(displayBlog[0]);
   }, [id]);
   return (
-    <div className=" max-w-[1240px] w-full mx-auto mt-[150px] pb-[50px]">
-      <div className="flex flex-col md:flex-row justify-between items-start gap-6">
+    <div className=" max-w-[1240px] w-full mx-auto mt-[60px] md:mt-[130px] lg:mt-[150px] pb-[50px]">
+      <div className="flex flex-col lg:flex-row justify-between items-start lg:gap-6">
         <img
           src={blogs.image}
           alt={blogs.title}

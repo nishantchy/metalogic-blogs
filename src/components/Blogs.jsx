@@ -17,11 +17,11 @@ const Blogs = () => {
           <IoInformationCircleOutline
             className="text-gray-500 hover:text-gray-700 cursor-pointer"
             size={24}
-            title="Why we redesigned the blog page"
+            title="Why I redesigned the blog page"
           />
           <span
             className="text-gray-500 ml-2 hover:text-gray-700 cursor-pointer"
-            title="Why we redesigned the blog page"
+            title="Why I redesigned the blog page"
           >
             Redesigned blog page
           </span>

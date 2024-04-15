@@ -4,7 +4,7 @@ const BlogRedesignDetails = () => {
   return (
     <div className="max-w-[1240px] mx-auto w-full mt-[120px] pb-9">
       <h2 className="text-3xl font-semibold mb-4">
-        Why We Redesigned the Blog Page
+        Why I Redesigned the Blog Page
       </h2>
       <p>
         The blog is a crucial part of our website, serving as a hub for our
